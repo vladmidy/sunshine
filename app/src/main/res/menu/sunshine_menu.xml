@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--android:id --> This is a unique resource id that is unique this item-->
+    <!--android:title --> Refers to a string to use as the item's title-->
+    <!--app:showAsAction --> Refers to when and how this item should appear as an action item in the app bar-->
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+
+</menu>
